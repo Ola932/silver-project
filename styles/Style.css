@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.update{
+    background-color: rgb(29,53,87);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.oflagos{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 100px;
+}
+.oflagos svg{
+    color: orangered;
+    height: 20px;
+}
+.oflagos p{
+    color: white;
+}
+.kelebu p{
+    color: white;
+    border-right: 2px solid white;
+    padding-right: 2px;
+}
+.tata svg{
+    width: fit-content;
+    background-color: orangered;
+    border-radius: 15px;
+    color: white ;
+}
+.holy{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 100px;
+}
+.suit{
+    color: orangered;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.skates{
+    display: flex;
+    color: black;
+    font-size: 15px;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+     
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: orangered;
+}
+.suit svg{
+    background-color: orangered;
+    width: fit-content;
+    color: white;
+    border-radius: 20px;
+    padding: 3px;
+}
+.first{
+    background-color: orangered;
+    border-radius: 20px;
+    width: fit-content;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-inline: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.suit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second{
+    display: flex;
+    gap: 9px;
+    margin-right: 90px;
+    align-items: center;
+}
