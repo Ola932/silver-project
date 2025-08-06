@@ -98,3 +98,868 @@ a:hover{
     margin-right: 90px;
     align-items: center;
 }
+.first-section {
+    background-image: url(../images/New-Project.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 80vh; */
+}
+
+.hero-section {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+}
+.hero1{
+    padding: 100px;
+    line-height: 60px;
+}
+.hope{
+    display: flex;
+    color: orangered;
+    align-items: center;
+    font-size: 25px;
+}
+.hope1{
+        color: white;
+        font-size: 55px;
+}
+.hope2{
+    color: white;
+    line-height: 20px;
+}
+.hope3{
+    color: white;
+}
+.month svg{
+    width: fit-content;
+    border-radius: 25px;
+    color: white;
+    background-color: orangered ;
+    padding: 10px;
+}
+.month{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.month p{
+    color: white;
+}
+.jan{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 15px;
+    font-size: 20px;
+}
+.feb{
+    color: white;
+    margin-top: 20px;
+}
+span{
+    color: orangered;
+}
+form{
+    margin: 100px;
+
+    
+}
+input{
+    padding: 20px;
+    padding-inline: 80px;
+}
+
+.section1{
+    background-image: url(../images/New-Project-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    height: 200px;
+    color: rgba(0, 0, 0, 0.89);
+    border-radius: 20px;
+}
+.volunteer-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(248,250,255);
+    padding: 40px;
+}
+.ogo p{
+    font-size: 30px;
+    color: white;
+}
+.ogo h4{
+    color: rgb(236, 232, 232);
+    margin-top: 5px;
+}
+.life{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    width: fit-content;
+    padding-inline: 10px;
+    border-radius: 15px;
+    padding-block: 5px;
+    margin-top: 20px;
+}
+.life:hover{
+    background-color: rgb(29,53,87);
+}
+.life p{
+    font-size: 15px;
+}
+.life svg{
+    color: white;
+}
+.heart img{
+    border-radius: 50%;
+}
+.world{
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+.wide{
+    color: white;
+}
+.section2{
+    border-radius: 20px;
+    background-color: #1d3557;
+    padding-inline: 25px;
+}
+.heart{
+    
+    padding: 10px;
+    margin-top: 5px;
+}
+.heart1{
+    border: 1px solid rgb(209,214,221);
+    margin-top: 15px;
+    padding-block: 5px;
+}
+.section3{
+    background-image: url(../images/New-Project-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    height: 200px;
+    color: rgba(0, 0, 0, 0.89);
+    border-radius: 20px;
+}
+.life1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29,53,87);
+    width: fit-content;
+    padding-inline: 10px;
+    border-radius: 15px;
+    padding-block: 5px;
+    margin-top: 20px;
+}
+.life1:hover{
+    background-color: orangered;
+}
+.life1 p{
+    font-size: 15px;
+}
+.life1 svg{
+    color: white;
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+.body img{
+    border-radius: 20px;
+    height: 250px;
+}
+.body1 img{
+    border-radius: 20px;
+}
+.body3{
+    border-radius: 15px;
+    background-color:rgb(29,53,87);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding-block: 15px;
+}
+.body3 p{
+    font-size:50px;
+    color: white;
+}
+.body3 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.body1{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.body2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 130px;
+}
+.subb-section{
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+    margin-bottom: 50px;
+    
+}
+.subb-section1{
+    margin-right: 100px;
+}
+.naija{
+    display: flex;
+    color: orangered;
+    align-items: center;
+    
+}
+.naija1{
+    color: rgb(29,53,87);
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.naija2{
+    color: rgb(186, 185, 185);
+    line-height: 25px;
+    margin-top: 15px;
+}
+.hand{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.hand svg{
+    color: orangered;
+}
+.hand1{
+    color: rgb(29,53,87);
+    font-size: 25px;
+    border-right: 2px solid rgb(186, 185, 185);
+    
+}
+.hand1 h4{
+    font-size: 15px;
+    color: rgb(186, 185, 185);
+    
+}
+.hand2{
+    color: rgb(29,53,87);
+    font-size: 25px;
+}
+.hand2 h4{
+    font-size: 15px;
+    color: rgb(186, 185, 185);
+}
+.naija3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: dotted;
+    padding-block: 20px;
+}
+.car{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+.car svg{
+    color: white;
+    border-radius: 50%;
+    background-color: orangered;
+}
+.car p{
+    color: rgb(218, 216, 216);
+}
+.car1{
+    display: flex;
+}
+.happy{
+    display: flex;
+    border-radius: 15px;
+    background-color: orangered;
+    padding-inline: 20px;
+    padding-block: 6px;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    margin-top: 15px;
+}
+.happy:hover{
+    background-color: rgb(29,53,87);
+}
+.car2 svg{
+   background-color: rgb(29,53,87);
+    border-radius: 15px;
+    color: white;
+    padding-inline: 10px;
+    padding-block: 5px;
+}
+.car2{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
+.car2 p{
+    color: rgb(186, 185, 185);
+}
+.car2 h3{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+ul{
+    color: rgb(29,53,87);
+    font-size: 50px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+.palmer{
+    background-image: url(../images/New-Project-2025-07-22T022020.353.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+.palmer1{
+    color: rgba(29, 53, 87, 0.649);
+}
+.palmer3{
+    display: flex;
+    align-items: center;
+    color: orangered;
+}
+.west{
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.palmer2{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.west1{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    width: fit-content;
+    padding-inline: 10px;
+    border-radius: 15px;
+    padding-block: 5px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    margin-top: 150px;
+}
+.big{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    
+}
+.buju{
+    background-color: rgb(248,250,255);
+    
+}
+.stop img{
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+}
+.stop p{
+    color: rgb(29,53,87);
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.stop{
+    border-radius: 25px;
+    height: 510px;
+    padding-inline: 20px;
+    padding-block: 30px;
+    background-color: white;
+}
+.stop1 p{
+    font-size: 40px;
+    color: rgb(51,51,51);
+}
+.stop1 span{
+    font-size: 15px;
+    color: rgb(49,63,90);
+}
+.stop2{
+    border-radius: 10px solid rgb(238,238,238);
+    height: 10px;
+    width: 400px;
+    background-color: rgb(238,238,238);
+    margin-top: 10px;
+}
+.stop3{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29,53,87);
+    width: fit-content;
+    padding-inline: 10px;
+    border-radius: 15px;
+    padding-block: 5px;
+    margin-top: 20px;
+    color: white;
+}
+.stop3 p{
+    font-size: 20px;
+    color: white;
+}
+.stop3:hover{
+    background-color: orangered;
+}
+
+.stop4{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    width: fit-content;
+    padding-inline: 10px;
+    border-radius: 15px;
+    padding-block: 5px;
+    margin-top: 20px;
+    color: white;
+}
+.stop4 p{
+    font-size: 20px;
+    color: white;
+}
+.stop4:hover{
+   background-color:  rgb(29,53,87);
+}
+
+.stop1{
+    background-color: rgb(248,250,255);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.apple{
+    background-image: url(../images/New-Project-2025-07-22T210543.965.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.apple1{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.apple1 svg{
+    color: orangered;
+    margin-left: 65px;
+}
+.miss{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.apple1 p{
+    font-size: 45px;
+    color: white;
+    display: flex;
+}
+.ola{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+
+    
+} 
+.ola1{
+    background-color: rgb(29,53,87);
+    padding-block: 80px;
+    padding-inline: 50px;
+    height: 600px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.apple4{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.apple5{
+    font-size: 15px;
+    color: rgb(218, 216, 216);
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.apple6{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.apple6 img{
+    width: 90px;
+    height: 100px;
+    border-radius: 10px;
+}
+.apple6 p{
+    font-size: 25px;
+    color: rgb(29,53,87);
+    font-weight: bolder;
+
+}
+.apple6 h3{
+    color: orangered;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.apple7{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.apple9{
+    display: flex;
+    border-radius: 15px;
+    background-color: orangered;
+    padding-inline: 10px;
+    padding-block: 10px;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+     margin-top: 35px;
+     width: fit-content;
+}
+.york{
+    margin-top: 50px;
+    padding-block: 20px;
+    padding-inline: 40px;
+}
+.run{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.run p{
+    font-size: 40px;
+    color: rgb(29,53,87);
+}
+.run1{
+    background-color: orangered;
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    
+}
+.run1 p{
+    font-size: 20px;
+    color: white;
+}
+.run1 svg{
+    color: white;
+}
+.run1:hover{
+    background-color:  rgb(29,53,87);
+}
+.run2{
+    background-color: rgb(29,53,87);
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+.run2:hover{
+   background-color: orangered;
+}
+.run2 p{
+    font-size: 20px;
+    color: white;
+}
+.run2 svg{
+        color: white;
+}        
+.plate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plate2{
+    color: rgb(29,53,87);
+    font-size: 45px;
+    font-weight: bolder;
+
+}
+.plate1{
+    color: rgb(186, 185, 185);
+    font-size: 25px;
+    font-weight: bold;
+}
+.plate3{
+    display: flex;
+    justify-content:
+}
+
+.plate4{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 5px;
+
+}
+.plate4 svg{
+     color: orangered;
+     font-size: 15px;
+}
+.plate4 p{
+    color: black;
+    font-size: 18px;
+}
+.band img{
+    border-radius: 50%;
+    height: 40px;
+    margin-top: 20px;
+}
+.band1{
+    font-size: 30px;
+    color: rgb(29,53,87);
+    font-weight: bolder;
+    margin-top: 10px;
+    
+}
+.red{
+    margin-top: 50px;
+    background-color: rgb(248,250,255);
+    padding-block: 60px;
+}
+    
+.red1{
+    display: flex;
+    align-items: center;
+    color: orangered;
+    justify-content: center;
+}
+.red2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(29,53,87);
+    font-size: 40px;
+    font-weight: bold;
+}
+.doja{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+.doja1{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding-block: 15px;
+    padding-right: 50px;
+    margin-left: 40px;
+    border: 1px solid grey;
+    padding-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.doja1:hover{
+    background-color: orangered;
+    color: white;
+}
+.gbp{
+    display: flex;
+    gap: 25px;
+    background-color: rgb(29,53,87);
+    padding-block: 20px;
+    border-radius: 25px;
+    padding-inline: 40px;
+    margin: 10px;
+
+}
+.doja5 img{
+    border-radius: 25px;
+}
+.risk{
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.proof{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+.proof1{
+    font-size: 15px;
+    color: rgb(177,176,174);
+    margin-top: 10px;
+}
+.proof2{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-top: 15px;
+}
+.proof2 p{
+    color: rgb(177,176,174);
+}
+.proof2 svg{
+    color: orangered;
+}
+.run6{
+    background-color: orangered;
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+
+    
+}
+.run6 p{
+    font-size: 20px;
+    color: white;
+}
+.run6 svg{
+    color: white;
+}
+
+.nzaza1 p{
+    font-size: 55px;
+    color: rgb(29,53,87);
+    font-weight: bolder;
+    width: 30px;
+}
+.nzaza1 h3{
+    color: rgb(209,214,221);
+}
+.nzaza{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.nzaza2 p{
+    font-size: 55px;
+    color: orangered;
+    font-weight: bolder;
+    width: 30px;
+}
+.nzaza2 h3{
+    color: rgb(209,214,221);
+}
+.nzaza1{
+    border-right: 2px solid rgb(209,214,221);
+    height: fit-content;
+    padding-inline: 50px;
+}
+.nzaza2{
+    border-right: 2px solid rgb(209,214,221);
+    height: fit-content;
+    padding-inline: 50px;
+}
+.nzaza3 p{
+    font-size: 55px;
+    color: orangered;
+    font-weight: bolder;
+    width: 30px;
+}
+.nzaza3 h3{
+    color: rgb(209,214,221);
+}
+
+.nzaza3{
+    height: fit-content;
+    padding-inline: 50px;
+}
+.nothing p{
+    font-size: 25px;
+    color: rgb(42,74,128);
+}
+.nothing h3{
+    color: rgb(173,180,193);
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fish{
+    display: flex;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    /* border: 2px solid rgb(230,230,230); */
+    /* border-radius: 20px; */
+}
+ .nothing h3{
+    /* margin-left: 50px; */
+    text-align: center;
+}
