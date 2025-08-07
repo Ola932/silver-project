@@ -30,10 +30,14 @@
     padding-right: 2px;
 }
 .tata svg{
-    width: fit-content;
+    width: 30px;
     background-color: orangered;
     border-radius: 15px;
     color: white ;
+    height: 30px;
+    padding: 5px;
+    
+    
 }
 .holy{
     display: flex;
@@ -76,16 +80,17 @@ a:hover{
 }
 .first{
     background-color: orangered;
-    border-radius: 20px;
-    width: fit-content;
+    border-radius: 25px;
     color: white;
-    font-weight: lighter;
-    font-size: 20px;
-    padding-inline: 10px;
     display: flex;
+    padding: 10px;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
+    width: 10rem;
+    height: 3rem;
+}
+.first p{
+    font-size: 15px;
 }
 .suit{
     display: flex;
@@ -94,7 +99,7 @@ a:hover{
 }
 .second{
     display: flex;
-    gap: 9px;
+    gap: 10px;
     margin-right: 90px;
     align-items: center;
 }
@@ -122,7 +127,6 @@ a:hover{
 .contact1{
     background-color: black;
     height: 100%;
-    width: 100%;
     opacity:0.7;
     display: flex;
     flex-direction: column;
@@ -158,6 +162,11 @@ a:hover{
     padding: 10px;
     margin-top: 60px;
     gap: 5px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.code1:hover{
+    background-color: rgb(29,53,87);
 }
 .one{
     background-color: transparent;
@@ -165,6 +174,7 @@ a:hover{
     color: white;
     font-size: 15px;
     font-weight: bolder;
+    cursor: pointer;
 }
 .part1{
     display: flex;
@@ -198,9 +208,7 @@ a:hover{
 .code3{
     display: flex;
 }
-.code4{
-    display: flex;
-}
+
 .two{
     background-color: transparent;
     border: none;
@@ -221,11 +229,14 @@ a:hover{
     margin-top: 70px;
     cursor: pointer;
     transition-duration: 1s;
+    
 
 }
+
 .code4:hover{
     background-color: orangered;
 }
+
 .big{
     display: flex;
     justify-content: space-between;
@@ -284,6 +295,7 @@ a:hover{
     padding: 10px;
     margin-top: 60px;
     cursor: pointer;
+    transition-duration: 1s;
 }
 .two1{
    background-color: transparent;
@@ -291,8 +303,12 @@ a:hover{
    color: white;
    font-size: 15px;
    font-weight: bolder;
+   cursor: pointer;
 
 
+}
+.code5:hover{
+    background-color: rgb(29,53,87);
 }
 .part323{
     display: flex;
@@ -316,6 +332,7 @@ a:hover{
     padding: 10px;
     margin-top: 60px;
     cursor: pointer;
+    transition-duration: 1s;
 }
 .two2{
     background-color: transparent;
@@ -323,14 +340,22 @@ a:hover{
    color: white;
    font-size: 15px;
    font-weight: bolder;
+   cursor: pointer;
+}
+.code6:hover{
+    background-color: orangered;
 }
 .flex1{
     display: flex;
     justify-content: center;
     color: rgb(254,119,95) ;
+    margin-top: 5rem;
+
 }
+
 .class{
         text-align: center;
+        margin-top: 2rem;
     
 }
 .hmm{
@@ -343,4 +368,349 @@ a:hover{
     font-weight: bolder;
     color: rgb(29,53,87);
 
+}
+.class1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid rgb(205,205,205);
+    height: 5rem;
+    width: 23rem;
+    border-radius: 20px;
+    padding: 10px;
+    padding-inline: 20px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.class1:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.code7:hover{
+    cursor: pointer;
+    color: white;
+}
+.code7{
+    color: rgb(45,67,99);
+    cursor: pointer;
+    
+}
+
+.class1 span{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.big2{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.pratice{
+    background-color: orangered ;
+    display: flex;
+    height: 5.3rem;
+    width: 5.3rem;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+.code8{
+    color: white;
+    
+}
+.order{
+    display: flex;
+    gap: 10px;
+}
+.order svg{
+    color: rgb(169,68,61);
+}
+.order span{
+    font-size: 18px;
+    color: rgb(178,183,182);
+}
+.thing{
+    color: rgb(178,183,182);
+    font-size: 18px;
+    width: 25rem;
+}
+.donate1{
+    background-color: transparent;
+    border:none;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    
+}
+.donate1:hover{
+    color: rgb(138,69,57);
+}
+.donate2{
+    color: white;
+}
+.donate2:hover{
+    color: rgb(138,69,57);
+}
+.fund{
+    color: white;
+    font-size: 30px;
+}
+.donate{
+    background-color: orangered;
+    width: 12rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 20px;
+    cursor: pointer;
+}
+.donate:hover{
+    background-color: transparent;
+    border: 1px solid orangered;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.bigcontainer{
+    display: flex;
+    gap: 30px;
+    background-color: rgb(29,53,87);
+    padding-block: 25px;
+    padding-inline: 25px;
+    width: 60rem;
+    border-radius: 20px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.biggestdiv{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-block: 3rem;
+}
+.tired4{
+    border-left: 2px solid rgb(207,208,211);
+    height: 80px;
+}
+.done1 h2{
+    color: rgb(29,53,87);
+    font-size: 70px;
+}
+.done1 p{
+    color: rgb(178,167,178);
+    font-size: 17px;
+}
+.done2 p{
+    color: rgb(178,167,178);
+    font-size: 17px;
+}
+.done2 h2{
+    color: rgb(255,85,40);
+    font-size:  70px;
+}
+.bigcontainer1{
+    display: flex;
+    margin-inline: 90px;
+    margin-top: 90px;
+    
+    justify-content: space-around;
+}
+.final1{
+    background-color: rgb(248,250,255);
+    padding-top: 10px;
+    margin-top: 100px;
+    padding-bottom: 70px;
+    
+}
+footer{
+    background-image: url(/images/crying.jpg);
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.enzo{
+    padding-inline: 70px;
+    opacity: 0.9;
+    background-color: black;
+    height: 100%;
+}
+.flex3 h3{
+        color: rgb(184,184,184);
+        font-size: px;
+}
+.flex3 p{
+    color: rgb(239,239,239);
+    font-size: 25px;
+    font-weight: bolder;
+}
+.final{
+    display: flex;
+    justify-content: space-around;
+    padding-block: 3rem;
+
+}
+.flex4{
+    display: flex;
+    gap: 5px;
+
+}
+.part5{
+    background-color: orangered;
+    color: white;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    padding:10px;
+    cursor: pointer;
+}
+.part5:hover{
+    background-color: white;
+    color: orangered;
+}
+.flex5 p{
+        width: 20rem;
+        font-size: 18px;
+        color: rgb(174,174,174);
+}
+.flex5 h1{
+    font-size: 40px;
+    color: orangered;
+}
+.flex5{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.frog2{
+    border-top: 20px;
+    height: 40px;
+}
+.tired{
+     border-bottom: 2px solid orangered;
+     width: 100px;
+}
+.help{
+    display: flex;
+}
+.named{
+    color: rgb(177,177,177);
+    font-size: 20px;
+}
+.colour{
+    color: orangered;
+}
+.link{
+    color: rgb(254,254,254);
+}
+.get{
+    border-radius: 20px;
+    width: 20rem;
+    padding: 15px;
+    border: 1px solid rgb(35,35,35);
+    background-color: transparent;
+}
+.display{
+    display: flex;
+    background-color: orangered;
+    width: 8rem;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+.display:hover{
+    background-color: rgb(29,53,87);
+}
+
+.none2{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+.hmm{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.feed{
+    color: white;
+}
+.biggest{
+    display: flex;
+    justify-content: space-around;
+    padding-block: 5rem;
+    padding-inline: 70px;
+    padding-right: 120px;
+    gap: 60px;
+    
+}
+.lorem{
+    font-size: 18px;
+    width: 20rem;
+    color: rgb(112,112,112);
+}
+.bigcontainer4{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.done{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+.display1{
+    display: flex;
+    padding-top: 20px;
+}
+.fish{
+    border-left: 2px solid rgb(61,61,61);
+    height: 20px;
+}
+.fishes{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.thanks{
+    display: flex;
+    justify-content: space-between;
+}
+.display1 span{
+    font-size: 20px;
+    color: rgb(177,177,177);
+}
+.fishes span{
+    font-size: 20px;
+    color: rgb(177,177,177);
+}
+
+.location1{
+    background-color: rgb(255,255,255);
+    width: 55px;
+    height: 52px;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.part4{
+    display: flex;
+    gap: 10px;
+}
+.awful{
+    margin-top: 90px;
+    padding-inline: 150px;
 }
