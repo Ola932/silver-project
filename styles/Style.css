@@ -675,6 +675,11 @@ ul{
     align-items: center;
      margin-top: 35px;
      width: fit-content;
+     cursor: pointer;
+}
+.apple9:hover{
+    background-color: transparent;
+    border: 1px solid orangered;
 }
 .york{
     margin-top: 50px;
@@ -731,7 +736,7 @@ ul{
 }
 .run2 svg{
         color: white;
-}        
+}      
 .plate{
     display: flex;
     justify-content: space-between;
@@ -743,6 +748,7 @@ ul{
     font-weight: bolder;
 
 }
+
 .plate1{
     color: rgb(186, 185, 185);
     font-size: 25px;
@@ -873,7 +879,7 @@ ul{
     width: fit-content;
     height: fit-content;
     margin-top: 30px;
-
+    cursor: pointer;
     
 }
 .run6 p{
@@ -883,7 +889,10 @@ ul{
 .run6 svg{
     color: white;
 }
-
+.run6:hover{
+    background-color: transparent;
+    border: 1px solid orangered;
+}
 .nzaza1 p{
     font-size: 55px;
     color: rgb(29,53,87);
@@ -941,18 +950,18 @@ ul{
 .nothing h3{
     color: rgb(173,180,193);
 }
-.flex{
+.flexx{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.fish{
+.fishh{
     display: flex;
     justify-content: center;
     gap: 10px;
 
 }
-.flex{
+.flexx{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1107,6 +1116,11 @@ ul{
     background-color: orangered;
     border-radius: 50%;
     padding: 2px;
+    
+}
+.cold svg:hover{
+    background-color:white ;
+    color: orangered;
 }
 .cold1{
     display: flex;
@@ -1351,17 +1365,18 @@ footer{
 .biggest{
     display: flex;
     justify-content: space-around;
-    /* padding-block: 5rem; */
+    
     padding-inline: 70px;
     padding-right: 120px;
-    gap: 60px;
-    padding-block: 10px;
+    gap: 40px;
+    padding-block: 40px;
     
 }
 .lorem{
     font-size: 18px;
     width: 20rem;
     color: rgb(112,112,112);
+    margin-top: 40px;
 }
 .bigcontainer4{
     display: flex;
@@ -1371,7 +1386,7 @@ footer{
 .done{
     display: flex;
     flex-direction: column;
-    gap: 29px;
+    gap: 1px;
 }
 .display1{
     display: flex;
@@ -1401,5 +1416,5 @@ footer{
 .enzo{
     background-color: rgba(0, 0, 0, 0.434);
     width: 100%;
-    padding: 60px;
+    padding: 10px;
 }
